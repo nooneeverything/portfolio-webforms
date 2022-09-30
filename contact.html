@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Contact </title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/093618d48c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <h1> Contact </h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-me.html"> About Me </a></li>
+      <li><a href="contact.html"> Contact </a></li>
+    </ul>
+
+  </nav>
+
+  <form method="GET">
+
+    <label> Your name:
+    <input type="text" name="name">
+    </label>
+    <label> Your email:
+      <input type="email" name="email">
+    </label>
+    <label for="city"> What city are you in </label>
+      <input id="city" type="text" name="city">
+
+
+    <label> Tell me about yourself! </label>
+      <textarea name="message" rows="5" cols="50"></textarea>
+
+
+    <h3> What type of services are you interested in?</h3>
+    <label for="wb"> Web Design</label>
+      <input type="checkbox" id="wb" name="service" value="design">
+    <label for="se"> Search Engine Optimization</label>
+      <input type="checkbox" id="se" name="service" value="seo">
+    <label for="sm"> Social Media Marketing</label>
+      <input type="checkbox" id="sm" name="service" value="socialMedia">
+    <label for="store"> Ecommerce </label>
+        <input type="checkbox" id="store" name="service" value="Ecommerce">
+    <br>
+    <br>     
+
+    <label for="pages"> About how many pages will you be needing? </label>
+    <input id="pages" name="pagenumbers" type="number" step="1">
+
+
+    <h3> Sign up for my newsletter! </h3>
+      <label> Yes
+        <input type="radio" name="newsletter" value="yes">
+      </label>
+      <label> No
+        <input type="radio" name="newsletter" value="no">
+      </label>
+
+    <input type="submit">
+
+  </form>
+
+  <footer>
+    <p>Webstie by <em>Noah Tesema</em></p>
+    <p><strong>Contact:</strong>  noahtesema@gmail.com</p> <i class="fa-brands fa-square-instagram"></i>
+  </footer>
+</body>
+
+</html>
